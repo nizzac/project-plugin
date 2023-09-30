@@ -30,7 +30,7 @@
                 </div>
                 <div v-if="task.estimate" class="p-3 bg-gray-100 rounded flex flex-col">
                   <label class="text-sm font-bold mb-2">Estimated Time</label>
-                  <p>{{ task.estimate }}</p>
+                  <p>{{ task.estimate_string }}</p>
                 </div>
               </div>
             </div>
