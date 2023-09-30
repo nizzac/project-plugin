@@ -5,7 +5,7 @@
       <div class="flex flex-col gap-2">
         <p v-if="task.user" class="truncate text-xs"><i class="icon-user mr-2"></i>{{ task.assignee_name }}</p>
         <p v-if="task.due_date" class="text-xs"><i class="icon-calendar mr-2"></i>{{ task.formatted_due_date }}</p>
-        <p v-if="task.estimate" class="text-xs"><i class="icon-clock-o mr-2"></i>{{ task.estimate }}</p>
+        <p v-if="task.estimate" class="text-xs"><i class="icon-clock-o mr-2"></i>{{ task.estimate_string }}</p>
       </div>
     </div>
 

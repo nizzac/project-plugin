@@ -1,8 +1,0 @@
-{
-    "name": "nizzac/project-plugin",
-    "type": "october-plugin",
-    "description": "",
-    "require": {
-        "composer/installers": "~1.0"
-    }
-}
